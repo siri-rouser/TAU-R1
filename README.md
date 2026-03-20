@@ -10,7 +10,6 @@ Code for this project will be released later.
 
 ## Citation
 If you find this project helpful, please cite:
-
 ```bibtex
 @misc{lin2026taur1visuallanguagemodel,
   title        = {TAU-R1: Visual Language Model for Traffic Anomaly Understanding},
@@ -21,6 +20,6 @@ If you find this project helpful, please cite:
   primaryClass = {cs.CV},
   url          = {https://arxiv.org/abs/2603.19098}
 }
-
+```
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
