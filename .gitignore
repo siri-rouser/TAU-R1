@@ -26,7 +26,6 @@ runs/
 wandb/
 
 # Data / annotations (not committed — download from HuggingFace)
-data/
 datasets/
 *.json.gz
 
