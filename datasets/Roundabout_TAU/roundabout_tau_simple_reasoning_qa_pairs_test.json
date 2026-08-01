@@ -1,0 +1,444 @@
+[
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you provide the reasons for considering this event as abnormal?"
+      },
+      {
+        "from": "gpt",
+        "value": "The sedan stops in an active circulating lane of the roundabout, creating an abnormal obstruction to traffic flow while yielding to a pedestrian."
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_142_26_2.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWhat evidence do you have to support your judgment of this event as an anomaly?"
+      },
+      {
+        "from": "gpt",
+        "value": "The SUV brakes hard while approaching the roundabout with other vehicles circulating, creating a near-collision risk."
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_27_30_2.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCan you provide the reasons for considering it anomalous?"
+      },
+      {
+        "from": "gpt",
+        "value": "The entering sedan fails to yield to a circulating sedan, causing a collision in the roundabout."
+      }
+    ],
+    "video": "/data/Car-Car-PE-Gray-96TH-10-31-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWhat evidence do you have to support your judgment of this event as an anomaly?"
+      },
+      {
+        "from": "gpt",
+        "value": "The motorcycle loses control and crashes, resulting in the rider being thrown onto the central island."
+      }
+    ],
+    "video": "/data/Motorcycle-Rndbt-Rangeline-Elm-2020.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWhat evidence do you have to support your judgment of this event as an anomaly?"
+      },
+      {
+        "from": "gpt",
+        "value": "The truck drives onto the curb/sidewalk while exiting and hits roadside infrastructure."
+      }
+    ],
+    "video": "/data/Truck-RT-Rangeline-Elm-10-21-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCan you provide the reasons for considering it anomalous?"
+      },
+      {
+        "from": "gpt",
+        "value": "The entering SUV fails to yield and cuts into the circulating lane, forcing the circulating SUV to slow to avoid a near-collision."
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_180_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you share your analysis of the anomalous event?"
+      },
+      {
+        "from": "gpt",
+        "value": "The SUV violates lane discipline by cutting diagonally within the roundabout to take an exit instead of exiting properly from its lane."
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_296_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWhat evidence do you have to support your judgment of this event as an anomaly?"
+      },
+      {
+        "from": "gpt",
+        "value": "The entering sedan fails to yield to the circulating SUV and cuts in front, forcing the SUV to slow down to avoid a collision."
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_36_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWhat evidence do you have to support your judgment of this event as an anomaly?"
+      },
+      {
+        "from": "gpt",
+        "value": "The sedan fails to yield when entering the roundabout and cuts off the circulating SUV, causing the SUV to slow and briefly stop to avoid a collision."
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_43_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWhat evidence do you have to support your judgment of this event as an anomaly?"
+      },
+      {
+        "from": "gpt",
+        "value": "The black sedan enters the circulating lane without yielding to vehicles already in the roundabout, causing them to slow to avoid a collision."
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_168_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCan you provide the reasons for considering it anomalous?"
+      },
+      {
+        "from": "gpt",
+        "value": "The sedan stops in the active entry lane at the crosswalk area to yield to a pedestrian, temporarily blocking the lane."
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_216_27_1.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCan you analyze the factors contributing to this anomalous event?"
+      },
+      {
+        "from": "gpt",
+        "value": "The sedan exits to the right from the inner entry/inner circulating path instead of continuing to circulate to a proper exit."
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_217_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCan you provide the reasons for considering it anomalous?"
+      },
+      {
+        "from": "gpt",
+        "value": "The sedan makes an unsafe lane change into the inner circulating lane, forcing the SUV already there to slow down to avoid a near collision."
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_221_19_4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you provide the reasons for considering this event as abnormal?"
+      },
+      {
+        "from": "gpt",
+        "value": "The sedan enters the roundabout via an exit lane instead of the designated entry lane, violating the correct direction of travel."
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_249_23_4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCan you analyze the factors contributing to this anomalous event?"
+      },
+      {
+        "from": "gpt",
+        "value": "The pickup merges into the circulating lane without sufficient gap and cuts off the white SUV, causing it to slow down to avoid a near collision."
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_303_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you provide the reasons for considering this event as abnormal?"
+      },
+      {
+        "from": "gpt",
+        "value": "The pickup stops in the circulating lane and causes a following vehicle to brake and stop to avoid a collision."
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_312_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you share your analysis of the anomalous event?"
+      },
+      {
+        "from": "gpt",
+        "value": "The sedan crosses the lane markings from the outer circulating lane into the inner circulating lane to continue circulating instead of exiting."
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_364_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCan you provide the reasons for considering it anomalous?"
+      },
+      {
+        "from": "gpt",
+        "value": "The sedan makes contact with a cyclist in the crosswalk, causing the cyclist to stumble."
+      }
+    ],
+    "video": "/data/Car-Bike-Rangeline-CarmelDr-10-16-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCan you analyze the factors contributing to this anomalous event?"
+      },
+      {
+        "from": "gpt",
+        "value": "The black sedan makes an unsafe right turn across lanes into the outer circulating lane, causing a collision with the red sedan."
+      }
+    ],
+    "video": "/data/Car-Car-L1-Towne-106TH-02-05-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCan you provide the reasons for considering it anomalous?"
+      },
+      {
+        "from": "gpt",
+        "value": "The SUV makes an unsafe lane change toward the exit and hits the sedan."
+      }
+    ],
+    "video": "/data/Car-Car-L2-Springmill-Main-08-09-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you provide the reasons for considering this event as abnormal?"
+      },
+      {
+        "from": "gpt",
+        "value": "The black SUV fails to yield when entering the roundabout, leading to a rear-end collision after the circulating black sedan brakes."
+      }
+    ],
+    "video": "/data/Car-Car-PE-Rangeline-CityCenter-11-01-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you provide the reasons for considering this event as abnormal?"
+      },
+      {
+        "from": "gpt",
+        "value": "The SUV cuts across the exit lane while turning left inside the roundabout, causing a collision with the exiting sedan."
+      }
+    ],
+    "video": "/data/CarR3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCan you analyze the factors contributing to this anomalous event?"
+      },
+      {
+        "from": "gpt",
+        "value": "The sedan drives into a construction hole at the roundabout entry and becomes stopped due to the impact."
+      }
+    ],
+    "video": "/data/Car-Rndbt-Cnstrct-Towne-Main-07-17-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWhat evidence do you have to support your judgment of this event as an anomaly?"
+      },
+      {
+        "from": "gpt",
+        "value": "The sedan fails to follow the circulating lane and collides with objects in the central island."
+      }
+    ],
+    "video": "/data/Car-Rndbt-Springmill-106TH-4-12-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCan you provide the reasons for considering it anomalous?"
+      },
+      {
+        "from": "gpt",
+        "value": "The SUV reverses in the exit lane/roundabout, which is an illegal and unsafe maneuver."
+      }
+    ],
+    "video": "/data/CarStall.mov"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWhat evidence do you have to support your judgment of this event as an anomaly?"
+      },
+      {
+        "from": "gpt",
+        "value": "The pickup overturns and stops in an active circulating lane of the roundabout."
+      }
+    ],
+    "video": "/data/Trailer-Fall-HazelDell-116TH-12-04-23.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCan you analyze the factors contributing to this anomalous event?"
+      },
+      {
+        "from": "gpt",
+        "value": "The HGV leaves the paved circulating lane and drives onto the central island grass area."
+      }
+    ],
+    "video": "/data/Truck-TR-Rangeline-Elm-2.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWhat evidence do you have to support your judgment of this event as an anomaly?"
+      },
+      {
+        "from": "gpt",
+        "value": "The blue sedan fails to yield when entering the roundabout and collides with the rear of the circulating black SUV."
+      }
+    ],
+    "video": "/data/Car-Car-PE-HazelDell-116TH-1-28-26.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you provide the reasons for considering this event as abnormal?"
+      },
+      {
+        "from": "gpt",
+        "value": "The sedan departs the roadway and strikes a yield sign post near the exit."
+      }
+    ],
+    "video": "/data/Car-Rndbt-Rangeline-136TH-1-2-26.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCan you provide the reasons for considering it anomalous?"
+      },
+      {
+        "from": "gpt",
+        "value": "A car travels toward the roundabout from an exit lane in the wrong direction."
+      }
+    ],
+    "video": "/data/no4_cat23_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you provide the reasons for considering this event as abnormal?"
+      },
+      {
+        "from": "gpt",
+        "value": "The SUV enters the roundabout via an exit lane and travels counterclockwise against the intended direction of circulation."
+      }
+    ],
+    "video": "/data/no11_cat23_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCan you provide the reasons for considering it anomalous?"
+      },
+      {
+        "from": "gpt",
+        "value": "The car travels the wrong way in the outer circulating lane and exits using the entry lane, violating the required direction of travel."
+      }
+    ],
+    "video": "/data/no6_cat23_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCan you provide the reasons for considering it anomalous?"
+      },
+      {
+        "from": "gpt",
+        "value": "The sedan drives across the central island instead of following the roundabout circulation direction."
+      }
+    ],
+    "video": "/data/no22_cat22_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCan you analyze the factors contributing to this anomalous event?"
+      },
+      {
+        "from": "gpt",
+        "value": "The sedan circulates clockwise in the roundabout, which is a wrong-way direction violation."
+      }
+    ],
+    "video": "/data/no21_cat23_sev4.mp4"
+  }
+]

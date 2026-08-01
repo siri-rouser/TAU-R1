@@ -1,0 +1,444 @@
+[
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you describe the anomaly events observed in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A white sedan stops in the outer circulating lane of the roundabout to yield to a pedestrian crossing through the roadway."
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_142_26_2.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you provide a summary of the anomaly events in this video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A silver-gray SUV entering the roundabout brakes hard in the inner entry lane as it approaches circulating traffic."
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_27_30_2.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nGive a description of the detected anomaly events in this video."
+      },
+      {
+        "from": "gpt",
+        "value": "A light-colored sedan enters the roundabout without yielding and collides with a black sedan already circulating, pushing it toward the central island."
+      }
+    ],
+    "video": "/data/Car-Car-PE-Gray-96TH-10-31-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nDescribe the anomaly events observed in the video."
+      },
+      {
+        "from": "gpt",
+        "value": "A motorcycle loses control in the roundabout and crashes onto the central island."
+      }
+    ],
+    "video": "/data/Motorcycle-Rndbt-Rangeline-Elm-2020.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you specify the anomaly events present in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A white truck mounts the curb/sidewalk while exiting the roundabout and strikes a lamp post."
+      }
+    ],
+    "video": "/data/Truck-RT-Rangeline-Elm-10-21-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWhat details can you provide about the anomaly in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A dark-colored SUV enters into the circulating lane and cuts off a black SUV already in the roundabout, forcing it to slow to avoid a conflict."
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_180_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nHow would you describe the particular anomaly events in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A dark SUV makes an improper diagonal turn within the roundabout to reach an exit, not following the lane markings."
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_296_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you specify the anomaly events present in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A light-colored sedan enters the roundabout without yielding and cuts off a black SUV already circulating, forcing the SUV to slow down to avoid a collision."
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_36_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWhat details can you provide about the anomaly in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A dark sedan enters the roundabout without yielding and cuts in front of a white SUV, forcing the SUV to slow and briefly stop to avoid a collision."
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_43_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWhat details can you provide about the anomaly in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A black sedan merges into the roundabout without yielding, forcing two red SUVs already circulating to slow down to avoid a collision."
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_168_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nProvide a summary of the anomaly events in the video."
+      },
+      {
+        "from": "gpt",
+        "value": "A dark sedan stops at the roundabout entry/crosswalk area to yield to a pedestrian, then continues forward."
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_216_27_1.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nProvide a summary of the anomaly events in the video."
+      },
+      {
+        "from": "gpt",
+        "value": "A dark sedan enters from the inner entry lane and makes an illegal early right exit from the roundabout."
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_217_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nGive a description of the detected anomaly events in this video."
+      },
+      {
+        "from": "gpt",
+        "value": "A light-colored sedan merges into the inner circulating lane with insufficient gap, forcing a black SUV to slow down to avoid a collision."
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_221_19_4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nProvide a summary of the anomaly events in the video."
+      },
+      {
+        "from": "gpt",
+        "value": "A white sedan enters the roundabout through an exit lane (wrong way) and then continues normally."
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_249_23_4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you specify the anomaly events present in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A white pickup merges into the roundabout and cuts in front of a circulating white SUV, forcing the SUV to slow down to avoid a collision."
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_303_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nDescribe the anomaly events observed in the video."
+      },
+      {
+        "from": "gpt",
+        "value": "A white pickup slows and briefly stops in the inner circulating lane, forcing a following white car to brake and stop inside the roundabout."
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_312_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you describe the anomaly events observed in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A dark sedan changes lanes inward in the roundabout instead of exiting from the outer lane."
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_364_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWhat details can you provide about the anomaly in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A dark sedan makes slight contact with a cyclist in the crosswalk, causing the cyclist to stumble."
+      }
+    ],
+    "video": "/data/Car-Bike-Rangeline-CarmelDr-10-16-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you describe the anomaly events observed in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A black sedan cuts across lanes near the first exit and collides with a red sedan in the outer circulating lane."
+      }
+    ],
+    "video": "/data/Car-Car-L1-Towne-106TH-02-05-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWhat details can you provide about the anomaly in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A white SUV changes lanes toward the exit and collides with a black sedan near the right exit of the roundabout."
+      }
+    ],
+    "video": "/data/Car-Car-L2-Springmill-Main-08-09-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nProvide a summary of the anomaly events in the video."
+      },
+      {
+        "from": "gpt",
+        "value": "A black SUV merges into the roundabout without yielding, causing a black sedan to brake and a following white sedan to rear-end it."
+      }
+    ],
+    "video": "/data/Car-Car-PE-Rangeline-CityCenter-11-01-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you describe the anomaly events observed in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A silver SUV makes an illegal left turn across the exit area and collides with a red sedan that is exiting."
+      }
+    ],
+    "video": "/data/CarR3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nGive a description of the detected anomaly events in this video."
+      },
+      {
+        "from": "gpt",
+        "value": "A black sedan enters the roundabout and drives into a construction hole at the outer entry lane, coming to a stop."
+      }
+    ],
+    "video": "/data/Car-Rndbt-Cnstrct-Towne-Main-07-17-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you give a description of the anomaly events in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A sedan drives into the central island of the roundabout and collides with the decorations before reversing back and exiting."
+      }
+    ],
+    "video": "/data/Car-Rndbt-Springmill-106TH-4-12-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you give a description of the anomaly events in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A black SUV pauses in the exit lane and reverses back into the roundabout before continuing forward."
+      }
+    ],
+    "video": "/data/CarStall.mov"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nProvide a summary of the anomaly events in the video."
+      },
+      {
+        "from": "gpt",
+        "value": "A silver-gray pickup towing a black trailer overturns in the roundabout and comes to rest in the circulating lane."
+      }
+    ],
+    "video": "/data/Trailer-Fall-HazelDell-116TH-12-04-23.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you specify the anomaly events present in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A red HGV drives onto the roundabout's central island grass area."
+      }
+    ],
+    "video": "/data/Truck-TR-Rangeline-Elm-2.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nHow would you detail the anomaly events found in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A blue sedan enters the roundabout without yielding and rear-ends a black SUV that is already circulating."
+      }
+    ],
+    "video": "/data/Car-Car-PE-HazelDell-116TH-1-28-26.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you specify the anomaly events present in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A dark sedan leaves the roadway near the top-left exit and collides with a yield sign post before stopping in the entry lane."
+      }
+    ],
+    "video": "/data/Car-Rndbt-Rangeline-136TH-1-2-26.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nDescribe the anomaly events observed in the video."
+      },
+      {
+        "from": "gpt",
+        "value": "A car drives toward the roundabout from the inner exit lane against the normal traffic direction."
+      }
+    ],
+    "video": "/data/no4_cat23_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you describe the anomaly events observed in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A black SUV enters from an exit lane and drives counterclockwise against the roundabout flow before exiting to the right."
+      }
+    ],
+    "video": "/data/no11_cat23_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you specify the anomaly events present in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A silver car drives the wrong way in the outer lane and exits the roundabout via the entry lane."
+      }
+    ],
+    "video": "/data/no6_cat23_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you specify the anomaly events present in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A silver sedan drives straight across the roundabout's central island against the circulating direction and exits to the right."
+      }
+    ],
+    "video": "/data/no22_cat22_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nHow would you detail the anomaly events found in the video?"
+      },
+      {
+        "from": "gpt",
+        "value": "A silver sedan enters the roundabout and immediately drives clockwise (wrong-way) instead of circulating counterclockwise."
+      }
+    ],
+    "video": "/data/no21_cat23_sev4.mp4"
+  }
+]

@@ -1,0 +1,590 @@
+[
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'night', 'weather': 'unknown', 'road_surface': 'unknown', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_142_26_2.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'night', 'weather': 'unknown', 'road_surface': 'unknown', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_27_30_2.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/Car-Car-PE-Gray-96TH-10-31-25.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'dawn_dusk', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'single_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/Motorcycle-Rndbt-Rangeline-Elm-2020.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'single_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/Truck-RT-Rangeline-Elm-10-21-25.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'unknown', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_180_18_3.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'unknown', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_296_21_3.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_36_18_3.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'night', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_43_18_3.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_168_18_3.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_216_27_1.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_217_21_3.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_221_19_4.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'night', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_249_23_4.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_303_18_3.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_312_18_3.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_364_21_3.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/Car-Bike-Rangeline-CarmelDr-10-16-25.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/Car-Car-L1-Towne-106TH-02-05-25.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/Car-Car-L2-Springmill-Main-08-09-24.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/Car-Car-PE-Rangeline-CityCenter-11-01-24.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'cloudy', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/CarR3.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'cloudy', 'road_surface': 'dry', 'road_type': 'multi_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/Car-Rndbt-Cnstrct-Towne-Main-07-17-25.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'night', 'weather': 'rainy', 'road_surface': 'wet', 'road_type': 'single_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/Car-Rndbt-Springmill-106TH-4-12-24.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'snowy', 'road_surface': 'wet', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/CarStall.mov",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/Trailer-Fall-HazelDell-116TH-12-04-23.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'single_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/Truck-TR-Rangeline-Elm-2.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'wet', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/Car-Car-PE-HazelDell-116TH-1-28-26.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'single_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/Car-Rndbt-Rangeline-136TH-1-2-26.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/no4_cat23_sev4.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'night', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/no11_cat23_sev4.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'night', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/no6_cat23_sev4.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'cloudy', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/no22_cat22_sev4.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'night', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/no21_cat23_sev4.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'night', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/N-HazelDell-116TH-C2-Night_537-1008.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'cloudy', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/N-HazelDell-Main-C1-Day-Cloudy_6856-7175.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'night', 'weather': 'cloudy', 'road_surface': 'unknown', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/N-HazelDell-Main-C2-Night_6881-6981.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/N-Illinois-Main-C2-Day-Sunny_2628-3261.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/N-Springmill-Main-C2-Day-Sunny_3533-3926.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'day', 'weather': 'clear', 'road_surface': 'dry', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/frames-000000_s3859_n421.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'night', 'weather': 'unknown', 'road_surface': 'unknown', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/frames-000042_s2243_n364.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nExtract the environment factors (time of day, weather, road surface, road type) from the video and provide them in a structured format."
+      },
+      {
+        "from": "gpt",
+        "value": "{'time_of_day': 'night', 'weather': 'unknown', 'road_surface': 'unknown', 'road_type': 'double_lane_roundabout'}"
+      }
+    ],
+    "video": "/data/frames-000046_s4898_n538.mp4",
+    "system_prompt": "\n            You will be given a short traffic video clip.\n\n            Task: Extract ONLY the environment_factor fields and output ONLY valid JSON (no extra text).\n\n            Use exactly these allowed values:\n            - time_of_day: [\"day\",\"night\",\"dawn_dusk\",\"unknown\"]\n            - weather: [\"clear\",\"cloudy\",\"rainy\",\"snowy\",\"foggy\",\"unknown\"]\n            - road_surface: [\"dry\",\"wet\",\"snow_covered\",\"unknown\"]\n            - road_type: [\"single_lane_roundabout\",\"double_lane_roundabout\",\"multi_lane_roundabout\",\"unknown\"]\n\n            Rules:\n            - Use only visible evidence. If not observable, use \"unknown\".\n            - If the scene is not clearly a roundabout, set road_type to \"unknown\".\n\n            Output JSON schema (exact keys):\n            {\n            \"environment_factor\": {\n                \"time_of_day\": \"...\",\n                \"weather\": \"...\",\n                \"road_surface\": \"...\",\n                \"road_type\": \"...\"\n            }\n            }\n        "
+  }
+]

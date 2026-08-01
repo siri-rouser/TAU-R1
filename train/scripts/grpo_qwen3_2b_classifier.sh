@@ -28,7 +28,7 @@ llm=Qwen/Qwen3-VL-2B-Instruct  # Using HuggingFace model ID
 # Training hyperparameters
 lr=1e-6 # the suggested learning rate is from 1e-6 to 2e-7, because the norm is very high, for this stage we use a smaller learning rate than the full parameter tuning stage
 batch_size=1
-grad_accum_steps=8
+grad_accum_steps=6
 num_generations=4
 
 generation_batch_size=$((batch_size * NPROC_PER_NODE * grad_accum_steps))
@@ -37,14 +37,14 @@ generation_batch_size=$((batch_size * NPROC_PER_NODE * grad_accum_steps))
 entry_file=qwenvl/train/train_qwen_grpo_full_parameter.py
 
 # Dataset configuration
-datasets="${GRPO_DATASET:-/data/Roundabout-TAU/roundabout_vau_category_qa_pairs_train.json}"
+datasets="/workspace/TAU-R1/datasets/Roundabout_TAU/roundabout_tau_category_qa_pairs_train.json"
 
-video_path="${GRPO_VIDEO_PATH:-/data}"
+video_path="/data"
 
 # Output configuration
 run_name="${GRPO_RUN_NAME:-qwen3vl-2b-grpo-post-training}"
-output_dir="${OUTPUT_DIR:-/output/sft_qwen3_2b_full_parameter_grpo}"
-adaptor_dir="${ADAPTOR_DIR:-""}"
+output_dir="/output/sft_qwen3_2b_full_parameter_grpo"
+adaptor_dir="/output_new/sft_qwen3_2b_full_parameter_stage2"
 
 # Training arguments
 args="
@@ -79,6 +79,7 @@ args="
     --report_to wandb \
     --num_generations ${num_generations} \
     --generation_batch_size ${generation_batch_size} \
+    --reward_function category_reward_func \
     --max_prompt_length ${MAX_PROMPT_LENGTH:-16384} \
     --temperature 1 \
     --top_p 0.9 \

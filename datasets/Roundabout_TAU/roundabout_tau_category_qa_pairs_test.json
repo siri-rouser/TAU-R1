@@ -1,0 +1,590 @@
+[
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nDetermine if any anomalies occur in the video and output only one token A, B, C, or D corresponding to the most severe anomaly observed."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_142_26_2.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWatch the complete video, choose the single best label A, B, C, or D based on the most severe anomaly present, and output only that token."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_27_30_2.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nReview the full video for anomalous driving and return only a single token A, B, C, or D that best matches the most severe event."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "video": "/data/Car-Car-PE-Gray-96TH-10-31-25.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nDetermine if any anomalies occur in the video and output only one token A, B, C, or D corresponding to the most severe anomaly observed."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "video": "/data/Motorcycle-Rndbt-Rangeline-Elm-2020.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWatch the complete video, choose the single best label A, B, C, or D based on the most severe anomaly present, and output only that token."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "video": "/data/Truck-RT-Rangeline-Elm-10-21-25.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nAnalyze the entire traffic video and output exactly one label token A, B, C, or D for the most severe anomaly, with no extra text."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_180_18_3.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect all road users across the whole clip and output exactly one label A, B, C, or D for the most severe and relevant anomaly, nothing else."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_296_21_3.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nAnalyze the entire traffic video and output exactly one label token A, B, C, or D for the most severe anomaly, with no extra text."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_36_18_3.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nAnalyze the entire traffic video and output exactly one label token A, B, C, or D for the most severe anomaly, with no extra text."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_43_18_3.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nReview the full video for anomalous driving and return only a single token A, B, C, or D that best matches the most severe event."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_168_18_3.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect all road users across the whole clip and output exactly one label A, B, C, or D for the most severe and relevant anomaly, nothing else."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_216_27_1.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nAnalyze the entire traffic video and output exactly one label token A, B, C, or D for the most severe anomaly, with no extra text."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_217_21_3.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nReview the full video for anomalous driving and return only a single token A, B, C, or D that best matches the most severe event."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_221_19_4.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nDetermine if any anomalies occur in the video and output only one token A, B, C, or D corresponding to the most severe anomaly observed."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_249_23_4.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWatch the complete video, choose the single best label A, B, C, or D based on the most severe anomaly present, and output only that token."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_303_18_3.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect all road users across the whole clip and output exactly one label A, B, C, or D for the most severe and relevant anomaly, nothing else."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_312_18_3.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nReview the full video for anomalous driving and return only a single token A, B, C, or D that best matches the most severe event."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_364_21_3.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWatch the complete video, choose the single best label A, B, C, or D based on the most severe anomaly present, and output only that token."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "video": "/data/Car-Bike-Rangeline-CarmelDr-10-16-25.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nAnalyze the entire traffic video and output exactly one label token A, B, C, or D for the most severe anomaly, with no extra text."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "video": "/data/Car-Car-L1-Towne-106TH-02-05-25.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nReview the full video for anomalous driving and return only a single token A, B, C, or D that best matches the most severe event."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "video": "/data/Car-Car-L2-Springmill-Main-08-09-24.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nAnalyze the entire traffic video and output exactly one label token A, B, C, or D for the most severe anomaly, with no extra text."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "video": "/data/Car-Car-PE-Rangeline-CityCenter-11-01-24.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nDetermine if any anomalies occur in the video and output only one token A, B, C, or D corresponding to the most severe anomaly observed."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "video": "/data/CarR3.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nAnalyze the entire traffic video and output exactly one label token A, B, C, or D for the most severe anomaly, with no extra text."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "video": "/data/Car-Rndbt-Cnstrct-Towne-Main-07-17-25.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWatch the complete video, choose the single best label A, B, C, or D based on the most severe anomaly present, and output only that token."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "video": "/data/Car-Rndbt-Springmill-106TH-4-12-24.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nAnalyze the entire traffic video and output exactly one label token A, B, C, or D for the most severe anomaly, with no extra text."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "video": "/data/CarStall.mov",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect all road users across the whole clip and output exactly one label A, B, C, or D for the most severe and relevant anomaly, nothing else."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "video": "/data/Trailer-Fall-HazelDell-116TH-12-04-23.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nAnalyze the entire traffic video and output exactly one label token A, B, C, or D for the most severe anomaly, with no extra text."
+      },
+      {
+        "from": "gpt",
+        "value": "D"
+      }
+    ],
+    "video": "/data/Truck-TR-Rangeline-Elm-2.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect all road users across the whole clip and output exactly one label A, B, C, or D for the most severe and relevant anomaly, nothing else."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "video": "/data/Car-Car-PE-HazelDell-116TH-1-28-26.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect all road users across the whole clip and output exactly one label A, B, C, or D for the most severe and relevant anomaly, nothing else."
+      },
+      {
+        "from": "gpt",
+        "value": "C"
+      }
+    ],
+    "video": "/data/Car-Rndbt-Rangeline-136TH-1-2-26.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nAnalyze the entire traffic video and output exactly one label token A, B, C, or D for the most severe anomaly, with no extra text."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "video": "/data/no4_cat23_sev4.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect all road users across the whole clip and output exactly one label A, B, C, or D for the most severe and relevant anomaly, nothing else."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "video": "/data/no11_cat23_sev4.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nAnalyze the entire traffic video and output exactly one label token A, B, C, or D for the most severe anomaly, with no extra text."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "video": "/data/no6_cat23_sev4.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWatch the complete video, choose the single best label A, B, C, or D based on the most severe anomaly present, and output only that token."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "video": "/data/no22_cat22_sev4.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nAnalyze the entire traffic video and output exactly one label token A, B, C, or D for the most severe anomaly, with no extra text."
+      },
+      {
+        "from": "gpt",
+        "value": "B"
+      }
+    ],
+    "video": "/data/no21_cat23_sev4.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nDetermine if any anomalies occur in the video and output only one token A, B, C, or D corresponding to the most severe anomaly observed."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "video": "/data/N-HazelDell-116TH-C2-Night_537-1008.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nDetermine if any anomalies occur in the video and output only one token A, B, C, or D corresponding to the most severe anomaly observed."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "video": "/data/N-HazelDell-Main-C1-Day-Cloudy_6856-7175.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nReview the full video for anomalous driving and return only a single token A, B, C, or D that best matches the most severe event."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "video": "/data/N-HazelDell-Main-C2-Night_6881-6981.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect all road users across the whole clip and output exactly one label A, B, C, or D for the most severe and relevant anomaly, nothing else."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "video": "/data/N-Illinois-Main-C2-Day-Sunny_2628-3261.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWatch the complete video, choose the single best label A, B, C, or D based on the most severe anomaly present, and output only that token."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "video": "/data/N-Springmill-Main-C2-Day-Sunny_3533-3926.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nWatch the complete video, choose the single best label A, B, C, or D based on the most severe anomaly present, and output only that token."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "video": "/data/frames-000000_s3859_n421.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nAnalyze the entire traffic video and output exactly one label token A, B, C, or D for the most severe anomaly, with no extra text."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "video": "/data/frames-000042_s2243_n364.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nDetermine if any anomalies occur in the video and output only one token A, B, C, or D corresponding to the most severe anomaly observed."
+      },
+      {
+        "from": "gpt",
+        "value": "A"
+      }
+    ],
+    "video": "/data/frames-000046_s4898_n538.mp4",
+    "system_prompt": "\n        You are a video classification system that identifies anomalous driving behavior in traffic videos.\n\n        You must assign exactly one label token from the set {A, B, C, D} based on all visible road users across the entire video. Choose the single best label using the definitions below. If multiple anomalies occur, output only the most severe and more relevant one.\n        \n        Labels (output exactly one token):\n\n        - A: No anomaly. All visible road users behave normally.\n        - B: Direction or maneuver violation, including wrong-way driving, illegal or unsafe turns, and illegal or unsafe lane changes.\n        - C: Near-collision or collision event, including cut-offs that force hard braking or evasive action, near-misses, and crashes.\n        - D: Abnormal road use, including stopping in an active lane or mid-road (breakdown, yielding to emergency vehicles, letting pedestrians cross) and driving or parking in non-vehicle areas (sidewalk, shoulder, etc.).\n\n        When you answer, you MUST:\n        1. Watch the entire video before deciding.\n        2. Output exactly one label token only: A or B or C or D.\n        3. Output nothing else: no words, no punctuation, no extra whitespace, no newlines.\n        "
+  }
+]

@@ -23,9 +23,14 @@ sys.path.append(str(project_root))
 from trainer import replace_qwen2_vl_attention_class  # your patch
 from qwenvl.train.argument import ModelArguments, DataArguments, GRPOTrainingArguments  # reuse these if you want
 from qwenvl.data.grpo_dataset import make_grpo_data_module
-from grpo_utils import traffic_reward_func,category_reward_func
+from grpo_utils import traffic_reward_func, category_reward_func
 
 local_rank = None
+
+REWARD_FUNCTIONS = {
+    "category_reward_func": category_reward_func,
+    "traffic_reward_func": traffic_reward_func,
+}
 
 def is_global_rank_0():
     return int(os.environ.get("RANK", 0)) == 0
@@ -58,6 +63,15 @@ def train_grpo(attn_implementation="flash_attention_2"):
         (ModelArguments, DataArguments, GRPOTrainingArguments)
     )
     model_args, data_args, training_args = parser.parse_args_into_dataclasses()
+
+    try:
+        reward_func = REWARD_FUNCTIONS[training_args.reward_function]
+    except KeyError as exc:
+        valid_functions = ", ".join(sorted(REWARD_FUNCTIONS))
+        raise ValueError(
+            f"Unknown reward function {training_args.reward_function!r}. "
+            f"Choose one of: {valid_functions}."
+        ) from exc
 
     local_rank = training_args.local_rank
     os.makedirs(training_args.output_dir, exist_ok=True)
@@ -124,7 +138,7 @@ def train_grpo(attn_implementation="flash_attention_2"):
     trainer = QwenGRPOTrainer(
         model=model,
         processing_class=processor,            # can be ProcessorMixin for VLMs :contentReference[oaicite:11]{index=11}
-        reward_funcs=[category_reward_func],    
+        reward_funcs=[reward_func],
         args=training_args,
         train_dataset=train_dataset,
     )

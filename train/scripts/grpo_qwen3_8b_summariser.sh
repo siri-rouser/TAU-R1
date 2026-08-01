@@ -27,24 +27,24 @@ llm=Qwen/Qwen3-VL-8B-Instruct  # Using HuggingFace model ID
 # Training hyperparameters
 lr=1e-6 # the suggested learning rate is from 1e-6 to 2e-7, because the norm is very high, for this stage we use a smaller learning rate than the full parameter tuning stage
 batch_size=1
-grad_accum_steps=6
+grad_accum_steps=6 # For two GPUs, it is 12 samples for one step.
 num_generations=4
 save_steps=40 
 
 generation_batch_size=$((batch_size * NPROC_PER_NODE * grad_accum_steps))
 
 # Training entry point
-entry_file=qwenvl/train/train_qwen_grpo_full_parameter.py # You should change reward function mannually in the script.
+entry_file=qwenvl/train/train_qwen_grpo_full_parameter.py
 
 # Dataset configuration
-datasets="${GRPO_DATASET:-/data/Roundabout-TAU/roundabout_vau_summary_qa_pairs_train.json}"
+datasets="/workspace/TAU-R1/datasets/Roundabout_TAU/roundabout_tau_summary_qa_pairs_train.json"
 
 video_path="${GRPO_VIDEO_PATH:-/data}"
 
 # Output configuration
 run_name="qwen3vl-8b-grpo-post-training"
-output_dir=${OUTPUT_DIR:-/output/sft_qwen3_8b_stage2_grpo_full_parameter}
-adaptor_dir=${ADAPTOR_DIR:-""}
+output_dir="/output/sft_qwen3_8b_stage2_grpo_full_parameter"
+adaptor_dir="/output_new/sft_qwen3_8b_full_parameter_stage2"
 # Training arguments
 args="
     --deepspeed ${deepspeed} \
@@ -78,6 +78,7 @@ args="
     --report_to wandb \
     --num_generations ${num_generations} \
     --generation_batch_size ${generation_batch_size} \
+    --reward_function traffic_reward_func \
     --max_prompt_length ${MAX_PROMPT_LENGTH:-8192} \
     --temperature 0.7 \
     --top_p 0.95 \

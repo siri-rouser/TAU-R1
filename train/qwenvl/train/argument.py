@@ -54,6 +54,7 @@ class GRPOTrainingArguments(GRPOConfig):
     cache_dir: Optional[str] = field(default=None)
     lora_bias: str = field(default="none")
     optim: str = field(default="adamw_torch")
+    reward_function: str = field(default="category_reward_func")
     model_max_length: int = field(
         default=8192,
         metadata={

@@ -15,7 +15,7 @@ export VIDEO_MAX_TOKEN_NUM=256
 deepspeed=./scripts/zero3_offload.json
 
 # Model configuration
-stage1_output_dir="${STAGE1_OUTPUT_DIR:-/output/sft_qwen3_2b_full_parameter_stage1}"
+stage1_output_dir="/output/sft_qwen3_2b_full_parameter_stage1"
 llm=Qwen/Qwen3-VL-2B-Instruct  # Keep base model id so AutoProcessor can load reliably
 
 # Training hyperparameters
@@ -27,12 +27,12 @@ grad_accum_steps=4
 entry_file=qwenvl/train/train_qwen.py
 
 # Dataset configuration (replace with public dataset names)
-datasets="roundabout_vau_category_train"
+datasets="roundabout_tau_category_train"
 
 # Output configuration
-run_name="qwen3vl_roundabout_vau_full_parameter_stage2"
+run_name="qwen3vl_roundabout_tau_full_parameter_stage2"
 adaptor_dir="${stage1_output_dir}"
-output_dir=${OUTPUT_DIR:-/output/sft_qwen3_2b_full_parameter_stage2}
+output_dir="/output/sft_qwen3_2b_full_parameter_stage2"
 
 if [ ! -d "${stage1_output_dir}" ]; then
     echo "[ERROR] stage1 output directory not found: ${stage1_output_dir}"

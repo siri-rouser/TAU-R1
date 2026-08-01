@@ -1,0 +1,3148 @@
+[
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[8, 14]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_117_22_4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[4, 7]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_224_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 5]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_253_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1, 2]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_341_19_4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.5, 2]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_176_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1, 3]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_186_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.8, 3]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_198_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1, 3]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_305_14_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[8, 11]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_53_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[14, 16]"
+      }
+    ],
+    "video": "/data/Car-Car-PE-HazelDell-116TH-09-13-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[10.5, 12]"
+      }
+    ],
+    "video": "/data/Car-Car-PE-Keystone-116TH-09-03-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[18, 21]"
+      }
+    ],
+    "video": "/data/Car-Car-R3-Keystone-116TH-08-18-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[13, 16.5]"
+      }
+    ],
+    "video": "/data/Car-Rndbt-DUI-Keystone-106TH-07-19-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[6.5, 9]"
+      }
+    ],
+    "video": "/data/Car-Rndbt-Shelborne-126TH-11-04-23-Short.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[13, 15]"
+      }
+    ],
+    "video": "/data/Car-Car-NoStop-CityCenter-CarmelDr-12-20-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 9]"
+      }
+    ],
+    "video": "/data/no8_cat22_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 6]"
+      }
+    ],
+    "video": "/data/no24_cat13_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[7, 10]"
+      }
+    ],
+    "video": "/data/no16_cat23_sev4_rm.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 2]"
+      }
+    ],
+    "video": "/data/no16_cat23_sev4_rc.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[5, 10]"
+      }
+    ],
+    "video": "/data/no6_cat5_sev2.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 4]"
+      }
+    ],
+    "video": "/data/no5_cat19_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 4]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_116_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1.5, 3]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_127_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[6, 8]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_132_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 5]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_133_21_4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[4, 6]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_140_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 4]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_160_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 5]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_162_30_2.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[15, 19]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_181_27_1.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1, 3]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_189_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[8, 10]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_195_27_1.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 6]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_200_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[3, 11]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_211_14_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[4, 6]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_216_27_1.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[3, 4]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_218_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 6]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_230_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 7.5]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_236_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[6, 9]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_23_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[6, 10]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_240_28_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[4, 7]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_242_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 6]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_250_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[16, 20]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_252_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 5]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_253_30_2.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 5]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_257_19_4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[18, 20]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_258_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 5]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_263_21_4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 5]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_263_22_4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[4, 10]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_268_27_1.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 4]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_273_30_2.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[4, 8]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_278_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1.5, 7]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_279_22_4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[8, 11]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_280_30_2.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[12, 19]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_283_27_1.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[6, 14]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_289_27_1.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[3, 6]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_28_5_2.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 7]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_293_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[6, 9]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_29_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[8, 10]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_312_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1.5, 3]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_31_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[5, 8]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_338_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[3, 8]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_35_5_2.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[9, 12]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_37_19_4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[7, 10]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_38_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[9, 12]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_44_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[12, 16]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_65_27_1.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[13, 15]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_80_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[8, 11]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_93_27_1.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[7, 12]"
+      }
+    ],
+    "video": "/data/RangelineSMedicalDr_av_98_27_1.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[9, 13]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_111_19_4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 5]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_114_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1, 3]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_116_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[8, 14]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_121_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1, 2.5]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_12_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 4]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_142_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[4, 6]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_153_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 20]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_169_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[3, 5]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_16_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[8, 11]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_17_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[10, 12]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_183_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 3]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_188_14_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[33, 37]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_189_32_4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 9]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_201_5_2.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[10, 12]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_222_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1.5, 3.5]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_233_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[18, 21]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_235_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[10, 12]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_237_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[7, 10]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_244_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[3, 5]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_253_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1, 3]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_270_30_2.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 12]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_276_23_4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1, 3]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_277_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 4]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_27_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[8, 10]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_280_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[9, 11]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_281_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1, 3]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_286_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1.5, 3]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_287_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2.0, 4.0]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_289_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 4]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_294_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[6, 8]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_29_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.8, 1.5]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_308_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1, 3]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_314_27_1.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[7, 10]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_315_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[9, 12]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_319_19_4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 4]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_321_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[3, 6]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_322_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 4]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_324_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 2.5]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_32_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[6, 8]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_336_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[12, 16]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_337_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1.5, 3]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_340_19_4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[10, 12]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_346_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[8, 10]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_353_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[5, 13]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_37_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[3, 4]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_38_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[3, 4]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_39_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 9]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_40_5_2.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1, 2.5]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_41_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1.5, 2.5]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_48_19_4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0.5, 3.5]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_4_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[4, 10]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_57_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 6]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_62_23_4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1.5, 3]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_64_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[7, 9]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_73_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[3, 5]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_7_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1, 3.5]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_80_18_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 4]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_87_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[7, 10]"
+      }
+    ],
+    "video": "/data/RangelineS116thSt_av_92_21_3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[18, 100]"
+      }
+    ],
+    "video": "/data/3Truck-TR-Rangeline-Elm-12-6-22.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[7, 9]"
+      }
+    ],
+    "video": "/data/Bus-Car-PE-Rangeline-Smoky-10-16-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[24, 26]"
+      }
+    ],
+    "video": "/data/Car-Bike-Keystone-Smoky-08-15-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[4, 6]"
+      }
+    ],
+    "video": "/data/Car-Car-L1-CityCenter-CarmelDr-07-29-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[10.5, 12]"
+      }
+    ],
+    "video": "/data/Car-Car-L1-Illinois-Main-09-11-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[11, 16]"
+      }
+    ],
+    "video": "/data/Car-Car-L1-Rangeline-116TH-01-14-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[6, 8]"
+      }
+    ],
+    "video": "/data/Car-Car-L1-Rangeline-116TH-10-26-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[7, 9]"
+      }
+    ],
+    "video": "/data/Car-Car-L1-Rangeline-CarmelDr-11-03-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[9, 11]"
+      }
+    ],
+    "video": "/data/Car-Car-LC-Keystone-Main-11-18-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[14, 17]"
+      }
+    ],
+    "video": "/data/Car-Car-PE-3rd-CityCenter-02-10-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[7, 10]"
+      }
+    ],
+    "video": "/data/Car-Car-PE-Gray-96TH-08-14-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[12, 15]"
+      }
+    ],
+    "video": "/data/Car-Car-PE-HazelDell-116TH-02-22-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[51, 54]"
+      }
+    ],
+    "video": "/data/Car-Car-PE-Keystone-116TH-11-09-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[10.5, 12]"
+      }
+    ],
+    "video": "/data/Car-Car-PE-Keystone-116TH-11-17-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[3, 5]"
+      }
+    ],
+    "video": "/data/Car-Car-PE-Rangeline-116TH-03-03-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[14, 16]"
+      }
+    ],
+    "video": "/data/Car-Car-PE-Rangeline-116TH-06-18-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[8, 10]"
+      }
+    ],
+    "video": "/data/Car-Car-PE-Rangeline-Medical-08-15-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[9, 12]"
+      }
+    ],
+    "video": "/data/Car-Car-PE-RE-Rangeline-Medical-07-09-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[10, 12]"
+      }
+    ],
+    "video": "/data/Car-Car-R3-HazelDell-Main-9-26-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[16, 19]"
+      }
+    ],
+    "video": "/data/Car-Car-R3-Illinois-Main-03-05-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[9, 12]"
+      }
+    ],
+    "video": "/data/Car-Car-R3-Illinois-Main-07-07-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[8, 10]"
+      }
+    ],
+    "video": "/data/Car-Car-R3-Illinois-Main-10-23-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[9, 11]"
+      }
+    ],
+    "video": "/data/Car-Car-R3-PriorityWay-96TH-07-22-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[12, 14]"
+      }
+    ],
+    "video": "/data/Car-Car-R3-Rangeline-116TH-07-03-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[12, 15]"
+      }
+    ],
+    "video": "/data/Car-Car-R3-Rangeline-CarmelDr-03-10-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[4, 6]"
+      }
+    ],
+    "video": "/data/Car-Car-R3-Rangeline-CarmelDr-03-12-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[9, 11.5]"
+      }
+    ],
+    "video": "/data/Car-Car-R3-Rangeline-CarmelDr-05-22-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[10, 13]"
+      }
+    ],
+    "video": "/data/Car-Car-R3-Rangeline-CarmelDr-06-28-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[9, 12]"
+      }
+    ],
+    "video": "/data/Car-Car-R3-Rangeline-CarmelDr-10-14-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[11, 13]"
+      }
+    ],
+    "video": "/data/Car-Car-R3-RE-HazelDell-116TH-11-18-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[8, 10]"
+      }
+    ],
+    "video": "/data/Car-Car-R3-Towne-106TH-02-05-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[10, 13]"
+      }
+    ],
+    "video": "/data/Car-Car-R3-Towne-106TH-10-08-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[9, 11]"
+      }
+    ],
+    "video": "/data/Car-Car-R3-Towne-116TH-08-07-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[23, 25]"
+      }
+    ],
+    "video": "/data/Car-Car-R3-Towne-116TH-10-15-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[10.5, 12]"
+      }
+    ],
+    "video": "/data/Car-Car-RR-SS-HazelDell-126TH-10-5-23.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[11, 13]"
+      }
+    ],
+    "video": "/data/Car-Car-Speed-PE-Rangeline-Medical-06-26-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[9, 12]"
+      }
+    ],
+    "video": "/data/CarPoorEntrance.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 4]"
+      }
+    ],
+    "video": "/data/CarR3Gray.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[13, 15]"
+      }
+    ],
+    "video": "/data/CarR3Zotec.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 4]"
+      }
+    ],
+    "video": "/data/CarRearEnd.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[8, 35]"
+      }
+    ],
+    "video": "/data/Car-Rndbt-DUI-WW-Springmill-Main-12-14-23.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[4.5, 7]"
+      }
+    ],
+    "video": "/data/Car-Rndbt-HazelDell-126TH-2023.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[7, 31]"
+      }
+    ],
+    "video": "/data/Car-Rndbt-Keystone-106th-10-31-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[6, 10]"
+      }
+    ],
+    "video": "/data/Car-Rndbt-Keystone-116TH-08-28-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[5, 7]"
+      }
+    ],
+    "video": "/data/Car-Rndbt-Keystone-Smoky-8-23-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[5, 10]"
+      }
+    ],
+    "video": "/data/Car-Rndbt-Main-4th-2023.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[5, 10]"
+      }
+    ],
+    "video": "/data/Car-Rndbt-Rangeline-Smoky-12-01-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[9, 14]"
+      }
+    ],
+    "video": "/data/Car-Rndbt-Shelborne-126TH-8-13-23-Short.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1.5, 3]"
+      }
+    ],
+    "video": "/data/Car-Rndbt-Smoky-Rangeline-2022.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[6, 35]"
+      }
+    ],
+    "video": "/data/Car-Rndbt-Springmill-106TH-08-14-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[3, 6]"
+      }
+    ],
+    "video": "/data/Car-Rndbt-Towne-116TH-02-10-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[5, 22]"
+      }
+    ],
+    "video": "/data/CarWrongWayEntranceAndExit.mov"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 5]"
+      }
+    ],
+    "video": "/data/CarWrongWayEntrance.mov"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[4, 18]"
+      }
+    ],
+    "video": "/data/CarWrongWay.mov"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[4, 7]"
+      }
+    ],
+    "video": "/data/DriveIntoMedian.mov"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[10, 14]"
+      }
+    ],
+    "video": "/data/ExitWrongWay.mov"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[17, 20]"
+      }
+    ],
+    "video": "/data/Truck-Car-L1-Rangeline-CarmelDr-10-22-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[5, 7]"
+      }
+    ],
+    "video": "/data/Truck-Car-R3-Rangeline-116TH-07-16-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[4, 6]"
+      }
+    ],
+    "video": "/data/TruckDropLoad.mov"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[15, 20]"
+      }
+    ],
+    "video": "/data/Truck-TR-Fall-Springmill-Main-05-13-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[62, 67]"
+      }
+    ],
+    "video": "/data/Truck-TR-Main-4th-10-25-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[15, 50]"
+      }
+    ],
+    "video": "/data/Truck-TR-Rangeline-Elm-08-17-2022.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[12, 25]"
+      }
+    ],
+    "video": "/data/Truck-TR-Rangeline-Elm-1.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[14, 48]"
+      }
+    ],
+    "video": "/data/Truck-TR-Rangline-Elm-10-24-19.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[20, 23]"
+      }
+    ],
+    "video": "/data/Truck-Truck-L1-Gray-116TH-10-22-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[10, 119]"
+      }
+    ],
+    "video": "/data/Truck-TR-WW-Rangline-Elm-10-4-24.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[5, 9]"
+      }
+    ],
+    "video": "/data/WrongWayUTurn.mov"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[5, 7]"
+      }
+    ],
+    "video": "/data/Car-Car-L1-Rangeline-116TH-12-17-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[7, 9]"
+      }
+    ],
+    "video": "/data/Car-Car-L1-Rangeline-CarmelDr-1-14-26.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[10, 13]"
+      }
+    ],
+    "video": "/data/Car-Car-PE-HazelDell-Main-1-21-26.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[9, 11]"
+      }
+    ],
+    "video": "/data/Car-Car-PE-Keystone-116TH-12-30-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[14, 17]"
+      }
+    ],
+    "video": "/data/Car-Car-PE-Rangeline-116TH-12-29-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[13, 16]"
+      }
+    ],
+    "video": "/data/Car-Car-PE-Rangeline-CarmelDr-1-16-26-Cut.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[9, 11]"
+      }
+    ],
+    "video": "/data/Car-Car-PE-RearEnd-Rangeline-CarmelDr-12-19-25.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[4.5, 6]"
+      }
+    ],
+    "video": "/data/Car-Car-R3-Gray-96TH-1-14-26.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[5, 9]"
+      }
+    ],
+    "video": "/data/Car-Car-RearEnd-Gray-116TH-1-28-26.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[6, 10]"
+      }
+    ],
+    "video": "/data/Car-Car-RearEnd-Keystone-116TH-1-4-26.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[5, 28]"
+      }
+    ],
+    "video": "/data/Car-Rndbt-DelegatesRow-96TH-1-5-26.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1, 7]"
+      }
+    ],
+    "video": "/data/no26_cat32_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[6, 10]"
+      }
+    ],
+    "video": "/data/no10_cat23_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 10]"
+      }
+    ],
+    "video": "/data/no3_cat23_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 11]"
+      }
+    ],
+    "video": "/data/no15_cat23_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[3, 6]"
+      }
+    ],
+    "video": "/data/no20_cat23_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 10]"
+      }
+    ],
+    "video": "/data/no21_cat13_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1, 9]"
+      }
+    ],
+    "video": "/data/no17_cat6_sev1.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[4, 6]"
+      }
+    ],
+    "video": "/data/no23_cat18_sev3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 4]"
+      }
+    ],
+    "video": "/data/no18_cat21_sev3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 10]"
+      }
+    ],
+    "video": "/data/no29_cat21_sev3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[3, 10]"
+      }
+    ],
+    "video": "/data/no27_cat21_sev3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[4, 9]"
+      }
+    ],
+    "video": "/data/no5_cat5_sev2.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[6, 9]"
+      }
+    ],
+    "video": "/data/no1_cat3_sev1.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 10]"
+      }
+    ],
+    "video": "/data/no25_cat23_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[4, 8]"
+      }
+    ],
+    "video": "/data/no9_cat22_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[3, 6]"
+      }
+    ],
+    "video": "/data/no13_cat23_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 6]"
+      }
+    ],
+    "video": "/data/no7_cat23_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[3, 6]"
+      }
+    ],
+    "video": "/data/no2_cat18_sev3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[5, 9]"
+      }
+    ],
+    "video": "/data/no14_cat23_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[5, 10]"
+      }
+    ],
+    "video": "/data/no28_cat23_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[4.5, 9]"
+      }
+    ],
+    "video": "/data/no7_cat29_sev3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 5]"
+      }
+    ],
+    "video": "/data/no10_cat31_sev2.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[1.5, 7]"
+      }
+    ],
+    "video": "/data/no14_cat29_sev3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 10]"
+      }
+    ],
+    "video": "/data/no18_cat9_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 10]"
+      }
+    ],
+    "video": "/data/no15_cat14_sev3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 9]"
+      }
+    ],
+    "video": "/data/no20_cat14_sev3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 3]"
+      }
+    ],
+    "video": "/data/no8_cat21_sev3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 9]"
+      }
+    ],
+    "video": "/data/no13_cat27_sev1.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[3, 10]"
+      }
+    ],
+    "video": "/data/no11_cat4_sev1.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[6, 8]"
+      }
+    ],
+    "video": "/data/no1_cat19_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[3, 9]"
+      }
+    ],
+    "video": "/data/no4_cat32_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 9]"
+      }
+    ],
+    "video": "/data/no22_cat23_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[3, 7]"
+      }
+    ],
+    "video": "/data/no12_cat26_sev2.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 10]"
+      }
+    ],
+    "video": "/data/no3_cat22_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[0, 10]"
+      }
+    ],
+    "video": "/data/no19_cat25_sev4.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[2, 5]"
+      }
+    ],
+    "video": "/data/no9_cat14_sev3.mp4"
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nInspect the whole video and provide a time window [start_sec, end_sec] that contains the main anomaly event."
+      },
+      {
+        "from": "gpt",
+        "value": "[3, 10]"
+      }
+    ],
+    "video": "/data/no2_cat23_sev4.mp4"
+  }
+]

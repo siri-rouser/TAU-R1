@@ -27,11 +27,11 @@ grad_accum_steps=4
 entry_file=qwenvl/train/train_qwen.py
 
 # Dataset configuration (replace with public dataset names)
-datasets="roundabout_vau_summary_train"
+datasets="roundabout_tau_summary_train"
 
 # Output configuration
 run_name="qwen3vl-8b-full-parameter-only-summary"
-output_dir=${OUTPUT_DIR:-/output/sft_qwen3_8b_full_parameter_stage2}
+output_dir="/output/sft_qwen3_8b_full_parameter_stage2"
 # Training arguments
 # Note: no evaluation
 args="
